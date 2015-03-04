@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor 
+		partial="false"
+		name="roboconf-maven-archetype"
+		xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd">
+		
+	<requiredProperties>
+		<requiredProperty key="roboconf-maven-plugin-version">
+			<defaultValue>0.2</defaultValue>
+		</requiredProperty>
+	</requiredProperties>
+	
+	<fileSets>
+		<fileSet encoding="UTF-8" filtered="false">
+			<directory>src/main/model</directory>
+			<includes>
+				<include>**/*.graph</include>
+				<include>**/*.instances</include>
+				<include>**/*.properties</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+	
+</archetype-descriptor>
