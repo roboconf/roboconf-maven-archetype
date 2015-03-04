@@ -5,7 +5,7 @@ Website: [http://roboconf.net](http://roboconf.net)
 Licensed under the terms of the **Apache License v2**.
 
 A Maven archetype for Roboconf projects.  
-Use the following command to create a new Roboconf project from a Maven archetype.
+Use the following command to create a new Roboconf project from this archetype.
 
 ```
 mvn archetype:generate                              \
@@ -15,3 +15,7 @@ mvn archetype:generate                              \
   -DgroupId=<my.groupid>                            \
   -DartifactId=<my-artifactId>
 ```
+
+Because there should not be a lot of versions of this archetype,
+it was placed in its own Git repository. Like the **Roboconf parent**,
+it should be released on demand, independently of the Roboconf roadmap. 
