@@ -37,7 +37,7 @@
 	<groupId>net.roboconf</groupId>
 	<artifactId>roboconf-maven-archetype</artifactId>
 	<name>Roboconf :: Maven Archetype</name>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 	
 	<build>
@@ -68,8 +68,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
-  <scm>
-    <tag>roboconf-maven-archetype-1.0</tag>
-  </scm>
 </project>
